@@ -46,10 +46,10 @@ let package = Package(
       from: "2.0.0"),
     .package(
       url: "https://github.com/alphane-ai/app-check.git",
-      from: "11.0.0"),
+      branch: "main"),
     .package(
       url: "https://github.com/alphane-ai/GTMAppAuth.git",
-      from: "5.0.0"),
+      branch: "master"),
     .package(
       url: "https://github.com/google/gtm-session-fetcher.git",
       from: "3.3.0"),
