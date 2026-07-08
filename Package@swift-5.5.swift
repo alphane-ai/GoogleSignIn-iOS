@@ -17,7 +17,7 @@
 
 import PackageDescription
 
-let googleSignInVersion = "9.1.0"
+let googleSignInVersion = "9.2.0"
 
 let package = Package(
   name: "GoogleSignIn",
@@ -43,16 +43,16 @@ let package = Package(
   dependencies: [
     .package(
       name: "AppAuth",
-      url: "https://github.com/openid/AppAuth-iOS.git",
-      from: "2.0.0"),
+      url: "https://github.com/alphane-ai/AppAuth-iOS.git",
+      .branch("master")),
     .package(
       name: "AppCheck",
-      url: "https://github.com/google/app-check.git",
-      from: "11.0.0"),
+      url: "https://github.com/alphane-ai/app-check.git",
+      .branch("main")),
     .package(
       name: "GTMAppAuth",
-      url: "https://github.com/google/GTMAppAuth.git",
-      from: "5.0.0"),
+      url: "https://github.com/alphane-ai/GTMAppAuth.git",
+      .branch("master")),
     .package(
       name: "GTMSessionFetcher",
       url: "https://github.com/google/gtm-session-fetcher.git",
